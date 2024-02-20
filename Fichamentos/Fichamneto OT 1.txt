@@ -1,0 +1,178 @@
+● Aplicação cliente-servidor
+○ O que é - em computação, é uma estrutura de aplicação distribuída que distribui as tarefas e cargas de trabalho entre os fornecedores de um recurso ou serviço, designados como servidores, e os requerentes dos serviços, designados como clientes.
+
+○ Linguagens do lado cliente - 
+HTML (Hypertext Markup Language)
+CSS (Cascading Style Sheets)
+JavaScript
+
+○ Linguagens do lado servidor - 
+PHP
+Python
+Ruby
+Java
+JavaScript (Node.js)
+C#
+Go
+Swift
+Perl
+Rust
+
+○ Como os lados se comunicam - 
+
+Os lados cliente e servidor se comunicam principalmente por meio do protocolo HTTP (Hypertext Transfer Protocol). Aqui está um resumo de como funciona essa comunicação:
+
+Requisição do cliente: Quando um usuário interage com uma página da web, como clicar em um link ou enviar um formulário, o navegador do cliente envia uma solicitação HTTP para o servidor. Esta solicitação contém informações sobre o recurso desejado e outros detalhes, como cookies e cabeçalhos de autenticação.
+
+Processamento do servidor: O servidor recebe a solicitação HTTP e a processa. Isso pode envolver acessar um banco de dados, executar código do lado do servidor (por exemplo, PHP, Python, Node.js), processar formulários, ou qualquer outra tarefa necessária para atender à solicitação do cliente.
+
+Resposta do servidor: Após processar a solicitação, o servidor envia de volta uma resposta HTTP ao cliente. Esta resposta contém o conteúdo solicitado (como uma página HTML, arquivo de imagem, etc.) e informações adicionais, como códigos de status HTTP, cabeçalhos de resposta e cookies.
+
+Renderização do cliente: O navegador do cliente recebe a resposta do servidor e a renderiza para o usuário. Se a resposta for uma página da web, o navegador interpreta o HTML, CSS e JavaScript incluídos na resposta para exibir a página conforme projetada. Se a resposta for um arquivo, como uma imagem ou PDF, o navegador pode exibir o arquivo diretamente ou oferecer opções de download.
+
+Esse processo de solicitação e resposta continua sempre que o cliente interage com a página da web, permitindo uma comunicação bidirecional entre o navegador do cliente e o servidor web. Além do HTTP, também existem outros protocolos e tecnologias que podem ser usados para comunicação cliente-servidor, como WebSockets para comunicação em tempo real e APIs RESTful para acesso a dados e serviços.
+
+■ Exemplificar com imagem
+
+https://codelogica.files.wordpress.com/2018/05/front-end4x.jpg?w=736
+
+● Software Navegador (Browser)
+○ Definição
+○ Exemplos
+
+Um navegador da web, também conhecido como browser, é um software utilizado para acessar e visualizar conteúdo na internet. Ele interpreta e exibe páginas da web, permitindo aos usuários interagir com elementos como links, formulários e mídia. Aqui estão alguns exemplos populares de navegadores:
+
+Google Chrome: Desenvolvido pelo Google, o Chrome é um navegador altamente popular conhecido por sua velocidade, simplicidade e integração com os serviços do Google.
+
+Mozilla Firefox: O Firefox é um navegador de código aberto desenvolvido pela Mozilla Foundation. Ele é conhecido por sua personalização, segurança e suporte a padrões da web.
+
+Microsoft Edge: O Edge é o navegador padrão do Windows 10, desenvolvido pela Microsoft. Ele é conhecido por sua integração com o ecossistema da Microsoft e por recursos de produtividade.
+
+Apple Safari: Safari é o navegador padrão em dispositivos da Apple, como iPhones, iPads e Macs. Ele é conhecido por seu desempenho eficiente e integração com os dispositivos da Apple.
+
+Opera: Opera é um navegador conhecido por sua velocidade e recursos avançados, como VPN integrada e bloqueador de anúncios.
+
+Brave: Brave é um navegador que se concentra na privacidade do usuário, bloqueando rastreadores e anúncios por padrão.
+
+
+● Linguagem de marcação HTML
+○ Definição
+○ HTML 5
+
+Linguagem de Marcação HTML (Hypertext Markup Language):
+A linguagem de marcação HTML é a espinha dorsal da web. É uma linguagem de marcação usada para criar e estruturar documentos na web, definindo o conteúdo e a aparência básica de uma página da web. O HTML consiste em uma série de elementos, cada um com um propósito específico, como definir parágrafos, títulos, listas, links, imagens e muito mais. Os navegadores interpretam o código HTML para exibir o conteúdo da web aos usuários.
+
+HTML5:
+HTML5 é a versão mais recente da linguagem de marcação HTML. Lançada em 2014, HTML5 trouxe uma série de novos recursos e melhorias em relação às versões anteriores do HTML. Alguns dos recursos mais significativos do HTML5 incluem suporte embutido para áudio e vídeo, elementos de formulário mais robustos, suporte a gráficos vetoriais, melhorias na semântica (como novos elementos para cabeçalhos, rodapés, seções, etc.), capacidades de armazenamento local (como localStorage e sessionStorage), e suporte para aplicativos da web offline.
+
+HTML5 também introduziu novas APIs (Interfaces de Programação de Aplicações) que permitem interações avançadas com o navegador e o sistema operacional, como a API de Geolocalização, a API de Arrastar e Soltar, a API de Canvas para gráficos dinâmicos, a API de WebSockets para comunicação em tempo real, e muito mais.
+
+
+
+■ Semântica da linguagem
+
+A semântica da linguagem HTML refere-se à maneira como os elementos HTML são usados para representar o significado e a estrutura de uma página da web. Em HTML, os elementos não são apenas destinados a definir a aparência visual de uma página, mas também a transmitir informações sobre o conteúdo e sua organização para os navegadores, mecanismos de busca, leitores de tela e outros agentes que interpretam a página.
+
+A introdução de elementos semânticos no HTML5 foi uma grande evolução, fornecendo maneiras mais expressivas e significativas de estruturar conteúdo na web. Alguns dos elementos semânticos mais importantes introduzidos no HTML5 incluem:
+
+<header>: Usado para definir o cabeçalho de uma seção ou de todo o documento.
+<nav>: Indica uma seção de navegação.
+<article>: Define uma seção independente de conteúdo que faz sentido por si só.
+<section>: Define uma seção genérica de conteúdo.
+<aside>: Representa um conteúdo relacionado ao conteúdo circundante, como barras laterais ou caixas de informações.
+<footer>: Define o rodapé de uma seção ou de todo o documento.
+<main>: Indica o conteúdo principal de um documento HTML.
+<figure> e <figcaption>: Usados para representar uma figura com uma legenda.
+<time>: Representa uma data ou hora.
+
+■ Acessibilidade
+
+A acessibilidade na web refere-se à prática de garantir que pessoas com diferentes habilidades e necessidades possam acessar e interagir com conteúdo online de forma eficaz. Isso inclui pessoas com deficiências visuais, auditivas, motoras ou cognitivas, bem como pessoas idosas e aqueles com limitações temporárias, como uma lesão temporária.
+
+A seguir estão algumas práticas comuns de acessibilidade na web:
+
+Textos alternativos (alt): Fornecer descrições de texto alternativas para imagens usando o atributo alt em elementos <img>. Isso ajuda pessoas cegas ou com baixa visão a entender o conteúdo visual.
+
+Contraste adequado: Garantir que haja um contraste adequado entre o texto e o plano de fundo para facilitar a leitura, especialmente para pessoas com baixa visão.
+
+Legendas de vídeo e transcrições de áudio: Incluir legendas em vídeos e transcrições para conteúdo de áudio, para que pessoas surdas ou com deficiência auditiva possam compreender o conteúdo.
+
+Marcup semântico: Usar elementos semânticos HTML5, como <header>, <nav>, <main>, <footer>, etc., para estruturar corretamente o conteúdo da página, facilitando a navegação e compreensão para usuários de leitores de tela.
+
+Teclado acessível: Certificar-se de que todas as funcionalidades da página possam ser operadas apenas com o teclado, para pessoas com dificuldades motoras que não podem usar um mouse.
+
+Tamanho do texto ajustável: Permitir que os usuários ajustem o tamanho do texto para melhorar a legibilidade, especialmente para pessoas com baixa visão.
+
+Formulários acessíveis: Usar etiquetas de rótulo (<label>) associadas aos campos de formulário para facilitar a identificação dos campos pelos leitores de tela.
+
+Testes de acessibilidade: Realizar testes regulares de acessibilidade utilizando ferramentas de verificação de acessibilidade e testes manuais para garantir a conformidade com as diretrizes de acessibilidade, como o Web Content Accessibility Guidelines (WCAG).
+
+
+○ Definições de tag, atributo e valor
+○ Estrutura básica de uma página
+
+■ Tag meta
+
+vamos definir esses conceitos em relação à estrutura básica de uma página HTML e à tag <meta>:
+
+Tag: Em HTML, uma tag é um elemento que define a estrutura e o significado do conteúdo em uma página da web. As tags são cercadas por colchetes angulares < > e podem ter um nome específico que define sua função. Por exemplo, <p> é uma tag usada para definir parágrafos, <a> é uma tag usada para criar links, e <img> é uma tag usada para inserir imagens. As tags podem ser usadas para envolver e definir diferentes partes do conteúdo em uma página web.
+
+Atributo: Um atributo é um modificador que fornece informações adicionais sobre uma tag HTML. Os atributos são incluídos dentro da tag e são usados para configurar o comportamento ou aparência do elemento associado. Por exemplo, o atributo href é usado na tag <a> para especificar o destino do link, o atributo src é usado na tag <img> para especificar o local da imagem a ser exibida, e o atributo class é usado para aplicar classes de estilo CSS a elementos HTML.
+
+Valor: Em HTML, o valor de um atributo é a informação específica fornecida para aquele atributo em uma tag HTML. Por exemplo, no atributo href de uma tag <a>, o valor seria o URL para o qual o link aponta. No atributo src de uma tag <img>, o valor seria o caminho para o arquivo de imagem a ser exibido. O valor de um atributo pode variar dependendo do contexto e do propósito específico da tag.
+
+Agora, vamos aplicar esses conceitos à tag <meta> na estrutura básica de uma página HTML:
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da Página</title>
+</head>
+<body>
+    <!-- Conteúdo da página -->
+</body>
+</html>
+
+Na estrutura acima:
+
+<meta> é uma tag usada para fornecer metadados sobre o documento HTML.
+charset e name são atributos da tag <meta>.
+"UTF-8" e "viewport" são os valores atribuídos aos atributos charset e name, respectivamente.
+O atributo charset define o conjunto de caracteres utilizado no documento (no caso, UTF-8 para suportar uma ampla gama de caracteres), enquanto o atributo name="viewport" é utilizado para configurar a escala inicial e as dimensões de exibição da página em dispositivos móveis.
+
+
+
+
+● Editores de texto para front-end
+
+Visual Studio Code
+Sublime Text
+Atom
+Brackets
+WebStorm
+Emacs
+
+○ Exemplos de alguns editores e seus recursos (visão geral apenas)
+
+● Codificação de caracteres
+○ O que é e sua importância
+○ UTF-8 
+
+A codificação de caracteres é o método usado para representar caracteres de texto por meio de códigos numéricos em computadores. Isso é necessário porque os computadores só entendem instruções em linguagem binária (0s e 1s), e as letras, números e símbolos que usamos precisam ser convertidos em representações binárias antes de serem processados ​​por um computador.
+
+Importância:
+
+A escolha da codificação de caracteres é fundamental para garantir que o texto seja exibido corretamente em dispositivos e sistemas diferentes. Se a codificação de caracteres não for especificada corretamente, os caracteres podem ser exibidos incorretamente ou até mesmo ilegíveis.
+
+UTF-8 (Unicode Transformation Format):
+
+UTF-8 é uma das formas mais populares de codificação de caracteres. Ele é um formato de codificação de caracteres Unicode que pode representar virtualmente todos os caracteres definidos na especificação Unicode. UTF-8 é amplamente utilizado na web e em sistemas operacionais modernos devido à sua capacidade de suportar uma ampla gama de idiomas e símbolos.
+
+Em UTF-8, cada caractere é representado por um ou mais bytes, dependendo de seu valor Unicode. Caracteres ASCII (os primeiros 128 caracteres Unicode, incluindo letras, números e símbolos básicos) são representados em UTF-8 com um único byte, enquanto outros caracteres Unicode são representados por múltiplos bytes.
+
+A importância do UTF-8 na web é especialmente significativa, pois permite que páginas da web exibam conteúdo em vários idiomas e suportem caracteres especiais, emojis e símbolos diversos, garantindo uma experiência de usuário mais inclusiva e global. Além disso, ao usar UTF-8, os desenvolvedores podem evitar problemas de exibição de texto causados ​​por diferentes codificações de caracteres em sistemas e navegadores diferentes.
