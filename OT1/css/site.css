@@ -1,11 +1,12 @@
 body {
     margin: 0 auto;
     font-family: "Century Gothic", sans-serif;
+    background-color: #D3D3D3;
 }
 
 header {
     height: 170px;
-    background-color: #008eb6;
+    background-color: #749BC2;
 }
 
 header img {
@@ -38,7 +39,7 @@ nav a {
 nav .opcao {
     float: left;
     width: 31.3%;
-    background-color: #b1ccf5;
+    background-color: #4682A9;
     padding: 10px 0;
     margin: 0 1%;
     font-size: 26px;
@@ -147,8 +148,16 @@ tr:nth-child(odd) {
     font-weight: bold;
     margin-bottom: 10px;
     border-radius: 10px;
+    border-width: 5px;
     padding: 15px 30px;
+    border-color: #4682A9;
+    background-color: #749BC2;
 
+}
+
+.faleConosco input {
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .faleConosco input,
@@ -159,16 +168,46 @@ tr:nth-child(odd) {
     padding: 5px 0;
 }
 
+#motivo {
+    border-radius: 10px;
+}
+
 .faleConosco textarea {
     height: 100px;
     resize: none;
+    border-radius: 10px;
 }
 
 .faleConosco button {
     width: 30%;
-    margin: 5px 5%;
+    margin: 4px 0px;
     background-color: #b1ccf5;
     font-weight: bold;
     font-size: 16px;
     border-radius: 90px;
+    border-color: #4682A9;
+}
+
+.faleConosco button:hover {
+    margin: 0px;
+    padding: 3px;
+    color: #F6F4EB;
+    background-color: #4682A9;
+    cursor: pointer;
+
+
+}
+
+.legenda-input {
+    color: white;
+}
+
+legend {
+    color: white;
+    background-color: #11235A;
+    border-radius: 5px;
+}
+
+.frmfaleconosco {
+    margin-bottom: 10rem;
 }

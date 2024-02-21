@@ -29,26 +29,26 @@
     <section>
         <h2>Fale conosco!</h2>
         <p>Ficou com alguma dúvida? Preencha este formulário e entraremos em contato!</p>
-        <form name="frmfaleconosco" method="post" action="#">
+        <form class="frmfaleconosco" name="frmfaleconosco" method="post" action="#">
             <fieldset class="faleConosco">
                 <legend>Dados pessoais:</legend>
-                <label for="nome">Nome: </label>
+                <label class="legenda-input" for="nome">Nome: </label>
                 <input type="text" name="txtnome" id="nome">
-                <label for="fone">Telefone: </label>
+                <label class="legenda-input" for="fone">Telefone: </label>
                 <input type="text" name="txtfone" id="fone">
-                <label for="email">E-mail: </label>
+                <label class="legenda-input" for="email">E-mail: </label>
                 <input type="email" name="txtemail" id="email">
             </fieldset>
             <fieldset class="faleConosco">
                 <legend>Motivo do contato:</legend>
-                <label for="motivo">Motivo: </label>
+                <label class="legenda-input" for="motivo">Motivo: </label>
                 <select name="selmotivo" id="motivo">
                     <option value="">Escolha</option>
                     <option value="RE">Reclamação</option>
                     <option value="SU">Sugestão</option>
                     <option value="PR">Informação sobre produto</option>
                 </select>
-                <label for="comentario">Comentário: </label>
+                <label class="legenda-input" for="comentario">Comentário: </label>
                 <textarea name="txacomentario" id="comentario"></textarea>
                 <button type="reset">Limpar</button>
                 <button type="submit">Enviar</button>
