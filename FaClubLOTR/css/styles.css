@@ -1,0 +1,23 @@
+.img_icon_nav {
+    width: 10%;
+    background-color: white;
+    border-radius: 90px;
+}
+
+.navbar {
+    background-color: #62760C;
+}
+
+.navbar-brand,
+.nav-link {
+    font-size: 1.5rem;
+    color: #baa531;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    position: relative;
+    font-size: 25px;
+    margin: 0;
+    color: darkred;
+}
