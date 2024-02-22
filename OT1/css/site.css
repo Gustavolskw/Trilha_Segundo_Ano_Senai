@@ -7,6 +7,7 @@ body {
 header {
     height: 170px;
     background-color: #749BC2;
+    box-shadow: inset 0px 5px 25px 5px rgb(222, 219, 219);
 }
 
 header img {
@@ -45,9 +46,6 @@ nav .opcao {
     font-size: 26px;
 }
 
-nav .opcao:hover {
-    background: #83afd3;
-}
 
 section {
     clear: both;
@@ -186,6 +184,7 @@ tr:nth-child(odd) {
     font-size: 16px;
     border-radius: 90px;
     border-color: #4682A9;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
 }
 
 .faleConosco button:hover {
@@ -203,6 +202,7 @@ tr:nth-child(odd) {
 }
 
 legend {
+    padding: 2px 10px;
     color: white;
     background-color: #11235A;
     border-radius: 5px;
@@ -210,4 +210,37 @@ legend {
 
 .frmfaleconosco {
     margin-bottom: 10rem;
+}
+
+/* CSS */
+.opcao {
+    align-items: center;
+    background-image: linear-gradient(144deg, #E1E7E4, #4682A9 40%, #E1E7E4);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: #E1E7E4 10px 10px 10px;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.opcao:active,
+.opcao:hover {
+    background-image: linear-gradient(144deg, #83afd3, #E1E7E4 40%, #83afd3);
+    color: #11235A;
+}
+
+@media (min-width: 768px) {
+    .opcao {
+        font-size: 24px;
+        min-width: 196px;
+    }
 }
