@@ -1,0 +1,30 @@
+.card-link {
+    text-decoration: none;
+    color: #baa531;
+    text-shadow: #FC0 1px 0 35px;
+    font-family: var(--font-secundaria);
+}
+
+.card-text {
+    font-family: var(--font-text-historia);
+}
+
+.section-cards {
+    background-color: #574b00;
+}
+
+.text-title-hist {
+    font-family: var(--font-primaria);
+    position: relative;
+    margin: 0;
+    color: #FC0;
+}
+
+.card-title {
+    color: #FC0;
+    font-family: var(--font-secundaria);
+}
+
+.card {
+    background-color: #125c00;
+}
