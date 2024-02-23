@@ -6,6 +6,7 @@
 
 .titulo-mapas {
     font-family: var(--font-primaria);
+    letter-spacing: 2px;
     position: relative;
     margin: 0;
     color: #FC0;

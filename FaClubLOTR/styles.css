@@ -2,6 +2,7 @@
 @import url("/css/maps.css");
 @import url("/css/creatures.css");
 @import url("/css/lore.css");
+@import url("/css/personagens.css");
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap');
@@ -40,6 +41,8 @@ body {
     color: #baa531;
     font-weight: bold;
     text-decoration: none;
+    font-family: var(--font-primaria);
+    letter-spacing: 2px;
 }
 
 .nav_title {
@@ -62,10 +65,6 @@ body {
     font-weight: bold;
 }
 
-.swiper {
-    width: 100%;
-    height: 61rem;
-}
 
 .texto-footer {
     color: #baa531;
