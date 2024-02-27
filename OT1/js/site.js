@@ -95,4 +95,12 @@ function verificaProduto(motivo) {
     }
 }
 
+//Assim que o documento HTML for carregado por completo...
+$(document).ready(function () {
+    //Carrega cabeçalho, menu e rodapé aos respectivos locais
+    $("header").load("/components/header.html");
+    $("nav").load("/components/menu.html");
+    $("footer").load("/components/footer.html");
+});
+
 
