@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap');
+@import url("/css/facaParte.css");
 
 :root {
     --font-primaria: "Protest Strike", sans-serif;
@@ -69,4 +70,8 @@ body {
 .texto-footer {
     color: #baa531;
     text-shadow: #FC0 2px 0 15px;
+}
+
+.form-control {
+    width: 50%;
 }
