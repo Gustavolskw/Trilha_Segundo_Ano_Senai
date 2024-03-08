@@ -16,7 +16,7 @@ body {
     border-radius: 10px;
 }
 
-.frmfaleconosco {
+s .frmfaleconosco {
     margin: 3rem 0;
     padding: 3rem 2rem;
     gap: 2rem
@@ -109,3 +109,4 @@ body {
 .btn-reset:hover {
     background-color: lightcoral;
 }
+
