@@ -1,0 +1,51 @@
+<h2 class="titulo">Registro de produtos</h2>
+<form name="frmAddProduto" id="addProduto" class="frmInserir">
+    <fieldset>
+        <legend>Novo produto</legend>
+        <table>
+            <tr>
+                <th>Categoria</th>
+                <td>
+                    <select name="categoria" data-categoria>
+                        <option value="">Selecione</option>
+                        <option value="1">Geladeira</option>
+                        <option value="2">Freezer</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Marca</th>
+                <td>
+                    <select name="marcaId" id="selMarca" data-marca>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Modelo</th>
+                <td>
+                    <input type="text" name="modelo" data-modelo>
+                </td>
+            </tr>
+            <tr>
+                <th>Capacidade(1)</th>
+                <td>
+                    <input type="text" name="capacidade" data-capacidade>
+                </td>
+            </tr>
+            <tr>
+                <th>Valor (R$)</th>
+                <td>
+                    <input type="text" name="valor" data-valor>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" onclick=COLDIGO.produto.cadastrar()>Cadastrar</button>
+                    <button type="reset">Limpar</button>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+<script src="../js/product.js"></script>
