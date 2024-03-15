@@ -88,4 +88,50 @@ $(document).ready(function () {
             });
         }
     }
+
+    COLDIGO.produto.buscar = function () {
+
+        var valorBusca = $("#campoBuscaProduto").val();
+
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:8080/produtos/all",
+            data: "valorBusca=" + valorBusca,
+            success: function () {
+            },
+            error: function (info) {
+                COLDIGO.exibirAviso("erro ao consultar os produtos" + info.status + "-" + info.statusText);
+            }
+        });
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });

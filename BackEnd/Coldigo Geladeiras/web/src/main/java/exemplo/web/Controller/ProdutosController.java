@@ -3,6 +3,7 @@ package exemplo.web.Controller;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import exemplo.web.DTO.DadosCadastroProdutos;
 import exemplo.web.DTO.DadosDetalhamentoProdutos;
+import exemplo.web.Entity.Produto;
 import exemplo.web.Mensagens.Mensagem;
 import exemplo.web.Repositories.ProdutosRepository;
 import exemplo.web.services.ProdutoServices;
@@ -39,6 +40,19 @@ public class ProdutosController {
         System.out.println(dadosCadastro);
         return ResponseEntity.ok(new Mensagem("Produto Criado com sucesso"));
     }
+
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @ResponseBody
+    @GetMapping("/{modelo}")
+    public ResponseEntity getProdutoByModelo(@PathVariable String modelo) {
+        var produtoList = repository.procuraProdutoOndeModeloLike(modelo).stream().map(DadosDetalhamentoProdutos::new);
+        return ResponseEntity.status(200).body(produtoList);
+    }
+
+
+
+
+
 
 
 }
