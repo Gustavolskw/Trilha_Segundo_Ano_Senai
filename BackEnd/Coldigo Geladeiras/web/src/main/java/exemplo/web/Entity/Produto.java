@@ -1,5 +1,7 @@
 package exemplo.web.Entity;
 
+import exemplo.web.DTO.DadosAtualizacaoProduto;
+import exemplo.web.DTO.DadosParaAtualizarProduto;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -26,5 +28,24 @@ public class Produto {
     @JoinColumn(name = "marcas_id")
     private Marca marca;
 
+    public void atualizaProduto(DadosParaAtualizarProduto dados){
+
+        if(dados.categoria()!=null){
+            this.categoria = dados.categoria();
+        }
+        if(dados.marca()!=null){
+            this.marca = dados.marca();
+        }
+        if(dados.modelo()!=null){
+            this.modelo = dados.modelo();
+        }
+        if(dados.capacidade()!=null){
+            this.capacidade = dados.capacidade();
+        }
+        if(dados.valor()!=null){
+            this.valor = dados.valor();
+        }
+
+    }
 
 }

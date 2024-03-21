@@ -1,5 +1,6 @@
 package exemplo.web.Entity;
 
+import exemplo.web.DTO.DadosCadastroMarca;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -13,7 +14,21 @@ import lombok.*;
 public class Marca {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String nome;
+    private Boolean status;
+
+
+    public Marca(DadosCadastroMarca dados, Boolean status){
+        this.nome = dados.nome();
+        this.status = status;
+    }
+    public void softDeleteMarca(){
+        this.status = false;
+    }
+
+    public void reativaMarca() {
+        this.status = true;
+    }
 }

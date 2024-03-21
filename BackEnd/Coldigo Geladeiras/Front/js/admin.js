@@ -9,7 +9,8 @@ $(document).ready(function () {
 
 
 	COLDIGO.carregaPagina = function (pagename) {
-
+		if ($(".ui-dialog"))
+			$(".ui-dialog").remove();
 		$("section").empty();
 		$("section").load(pagename + "/", function (response, status, info) {
 			if (status == "error") {
