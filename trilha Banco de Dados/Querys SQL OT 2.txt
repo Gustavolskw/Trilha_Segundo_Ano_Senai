@@ -1,0 +1,10 @@
+SELECT produto.* FROM produto INNER JOIN categoria ON produto.idcategoria = categoria.idcategoria WHERE categoria.descricao LIKE "%Higiene Pessoal%"
+
+
+SELECT produto.preco, categoria.descricao as descricao FROM produto INNER JOIN categoria ON produto.idcategoria = categoria.idcategoria WHERE categoria.descricao LIKE "%Limpeza%"
+
+SELECT produto.descricao,produto.preco, categoria.descricao as descricao FROM produto INNER JOIN categoria ON produto.idcategoria = categoria.idcategoria
+
+SELECT produto.* FROM produto INNER JOIN categoria ON produto.idcategoria = categoria.idcategoria WHERE categoria.descricao NOT LIKE "%frios%"
+
+SELECT categoria.*, produto.descricao AS produto FROM categoria INNER JOIN produto ON categoria.idcategoria = produto.idcategoria
