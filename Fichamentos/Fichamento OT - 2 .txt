@@ -1,0 +1,72 @@
+● Linguagem CSS
+○ Introdução/Definição
+○ Maneiras de aplicar (inline, interno e externo)
+○ Principais Seletores
+■ class
+■ id
+■ Quando usar classes e quando usar ids nos elementos
+
+
+Linguagem CSS (Cascading Style Sheets):
+
+CSS é uma linguagem de estilo utilizada para definir a apresentação e o layout de documentos HTML. Ele permite controlar a aparência visual de elementos HTML, como cores, fontes, espaçamentos e posicionamento.
+
+Maneiras de aplicar CSS:
+
+Existem três maneiras principais de aplicar CSS a uma página da web:
+
+Inline: O CSS é aplicado diretamente a um elemento HTML usando o atributo style.
+
+Interno: O CSS é definido dentro da tag <style> na seção <head> do documento HTML.
+
+Externo: O CSS é definido em um arquivo separado com a extensão .css e é vinculado ao documento HTML usando a tag <link> na seção <head>.
+
+Principais Seletores:
+
+Seletores CSS são padrões usados para selecionar os elementos aos quais um conjunto específico de regras de estilo deve ser aplicado. Alguns dos principais seletores incluem:
+
+Seletores de tipo: Selecione elementos com base em seu tipo HTML.
+Seletores de classe: Selecione elementos com base em suas classes.
+Seletores de ID: Selecione elementos com base em seus IDs.
+Seletores de atributo: Selecione elementos com base em atributos específicos.
+Seletores de descendente: Selecione elementos que são descendentes de outros elementos.
+Esses são os conceitos básicos de CSS e maneiras de aplicá-lo em uma página da web, juntamente com os principais seletores para direcionar elementos específicos para estilização.
+
+
+
+
+○ Principais Propriedades e seus Valores
+
+margin:
+
+Valor: especifica as margens de um elemento.
+Exemplo: margin: 10px; (10 pixels em todas as direções)
+Propriedade padding:
+
+Valor: especifica o preenchimento interno de um elemento.
+Exemplo: padding: 20px; (20 pixels em todas as direções)
+Propriedade border:
+
+Valor: especifica a borda de um elemento.
+Exemplo: border: 1px solid #000; (borda sólida de 1 pixel, cor preta)
+Propriedade display:
+
+Valor: especifica como um elemento é exibido.
+Exemplo: display: inline-block;
+
+
+○ Unidades de medida aceitas nos valores das propriedades
+
+Pixels (px)
+Porcentagem (%)
+Centímetros (cm)
+Milímetros (mm)
+Polegadas (in)
+Pontos (pt)
+Picas (pc)
+EM (em)
+REM (rem)
+Viewport Width (vw)
+Viewport Height (vh)
+Viewport Minimum (vmin)
+Viewport Maximum (vmax)

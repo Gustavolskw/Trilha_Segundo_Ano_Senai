@@ -1,0 +1,13 @@
+.dadosPessais {
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #baa531;
+    border-color: black;
+}
+
+.btn-primary:hover {
+    background-color: #FC0;
+    border-color: black;
+}

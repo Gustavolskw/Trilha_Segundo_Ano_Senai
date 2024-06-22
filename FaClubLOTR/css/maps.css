@@ -1,0 +1,13 @@
+.text-header-map {
+    font-size: 1.5rem;
+    color: #baa531;
+    font-weight: bold;
+}
+
+.titulo-mapas {
+    font-family: var(--font-primaria);
+    letter-spacing: 2px;
+    position: relative;
+    margin: 0;
+    color: #FC0;
+}

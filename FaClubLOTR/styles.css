@@ -1,0 +1,77 @@
+@import url("/reset.css");
+@import url("/css/maps.css");
+@import url("/css/creatures.css");
+@import url("/css/lore.css");
+@import url("/css/personagens.css");
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap');
+@import url("/css/facaParte.css");
+
+:root {
+    --font-primaria: "Protest Strike", sans-serif;
+    --font-secundaria: "Anton", sans-serif;
+    --font-text-historia: "IM Fell English",
+        serif;
+}
+
+
+body {
+    height: 100vh;
+}
+
+
+.navbar {
+    background-color: black;
+}
+
+.img_icon_nav {
+    width: 10%;
+    background-color: white;
+}
+
+.navbar-toggler {
+
+    background-color: #baa531;
+}
+
+
+.nav_title,
+.nav-item-link {
+    font-size: 1.5rem;
+    color: #baa531;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: var(--font-primaria);
+    letter-spacing: 2px;
+}
+
+.nav_title {
+    position: relative;
+    margin: 0;
+    color: #baa531;
+}
+
+.nav-item-link:hover {
+    position: relative;
+    margin: 0;
+    color: #baa531;
+    text-shadow: #FC0 2px 0 15px;
+}
+
+
+.nav-item-link:active {
+    font-size: 1.5rem;
+    color: #baa531;
+    font-weight: bold;
+}
+
+
+.texto-footer {
+    color: #baa531;
+    text-shadow: #FC0 2px 0 15px;
+}
+
+.form-control {
+    width: 50%;
+}
